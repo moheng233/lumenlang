@@ -15,3 +15,5 @@ include_directories(main PUBLIC ${CMAKE_SOURCE_DIR}/inc)
 
 add_subdirectory(components/cpp-tree-sitter)
 add_subdirectory(components/tree-sitter-lumen)
+
+add_subdirectory(components/lumen-parser)
